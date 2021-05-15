@@ -4,62 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+    <title>Flores de Temporada en Mallorca</title>
+    <meta name="description" content="¿Buscas la mejores Flores? no dudes en visitar nuestra tienda en Palma de Mallorca">
+    <link rel="stylesheet" href= "css/normalize.css" >
+    <link rel="stylesheet" href="css/estilos.css" >
 </head>
 
 <body>
 
-    <div id="contenedor">
+    <section class="contenido">
+
     <!--HEADER-->
-<!--Menú navegación arriba del banner izquierda Roboto-->
-<section id="navegador">
-<nav>
-    <a>Inicio</a>
-    <a href="/servicios.html">Servicios</a>
-    <a href="/galeria.html">Galeria</a>
-    <a href="/contactar.html">Contactar</a>
+<header>
+
+<!--imagen logo izquierda-->
+<a class="logo" href="/index.html">
+<img clas="logo__imagen" src="/imagenes/logo_instagram.svg" alt="Vector">
+</a>
+
+<!--Menú navegación arriba del banner derecha Roboto-->
+<nav class="menuprincipal">
+    <a clas="menuprincipal__inicio">Inicio</a>
+    <a class="menuprincipal__serivcios"  href="/servicios.html" >Servicios</a>
+    <a class="menuprincipal__galeria"  href="/galeria.html" >Galeria</a>
+    <a class="menuprincipal__contactar" href="/contactar.html"  >Contactar</a>
 </nav>
-</section>
 
-<!--Banner/inicio-->
-<img src="imagenes/banner_inicio.jpg" alt"banner_inicio">
-
-<!--H1 centrado Roboto-->
-<h1>Flores de Temporada en Mallorca</h1>
-
+</header>
 
 <!--MAIN-->
-  <!--imangen 1 bloque arriba (Mujer) izquierda-->
-<img src="imagenes/mujer_flores.jpg" alt"mujer_flores">
-<!--h2 derecha Roboto-->
-<h2>Flores de primavera</h2>
-<!--texto 1 bloque arriba derecha Roboto-->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum a mauris at eget massa pellentesque in. Imperdiet urna mi fermentum, ac sit aliquam, tempus purus non. Arcu nibh pellentesque suspendisse vitae sit proin. Neque, volutpat amet enim, cursus.
-Amet gravida eget aliquam arcu, consequat ut neque non. Vel consequat arcu in aliquam. Sem ornare vitae gravida sed diam sagittis in. Senectus mus cursus cum tortor mauris turpis pretium. </p>
+<main>
 
-<!--texto 2 bloque abajo izquierda Roboto-->
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum a mauris at eget massa pellentesque in. Imperdiet urna mi fermentum, ac sit aliquam, tempus purus non. Arcu nibh pellentesque suspendisse vitae sit proin. Neque, volutpat amet enim, cursus.
-Amet gravida eget aliquam arcu, consequat ut neque non. Vel consequat arcu in aliquam. Sem ornare vitae gravida sed diam sagittis in. Senectus mus cursus cum tortor mauris turpis pretium. 
-</p>
+    <!--Banner/inicio-->
+    <img class="banner" src="imagenes/banner_inicio.jpg" alt="info letras">
 
-<!--Imagen 2 bloque abajo (Edificio) derecha-->
-<img src="imagenes/fachada.jpg" alt"fachada"  
+    <!--H1 centrado Roboto-->
 
+    <h1 class="titulo">Flores de Temporada en Mallorca</h1>
+
+      <!--bloque 1-->
+      <article class="zonasuperior">
+
+
+        <figure class="zonasuperior__flores"> 
+          <!--imangen 1 bloque arriba (Mujer) izquierda-->
+    <img class="zonasuperior__flores__imagen" src="imagenes/mujer_flores.jpg" alt"mujer_flores">
+
+    <figcaption class="zonasuperior__flores__texto">
+        <h2 class="zonasuperior__flores__texto_titulo">Flores de primavera</h2>
+        <!--texto 2 bloque abajo izquierda Roboto-->
+    <!--texto 1 bloque arriba derecha Roboto-->
+    <p class="zonasuperior__flores__texto_parrafo">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum a mauris at eget massa pellentesque in. Imperdiet urna mi fermentum, ac sit aliquam, tempus purus non. Arcu nibh pellentesque suspendisse vitae sit proin. Neque, volutpat amet enim, cursus.
+        Amet gravida eget aliquam arcu, consequat ut neque non. Vel consequat arcu in aliquam. Sem ornare vitae gravida sed diam sagittis in. Senectus mus cursus cum tortor mauris turpis pretium. </p>
+    </figcaption>
+        </figure>
+      </article>
+
+      <!--bloque 2-->
+<article class="zonainferior">
+    <figure class="zonainferior__casas">
+          <!--Imagen 2 bloque abajo (Edificio) derecha-->
+        <img class="zonainferior__casas_imagen" src="imagenes/fachada.jpg" alt"fachada">
+
+        <!--Texto 2-->
+        <p class="zonainferior__casas_texto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum a mauris at eget massa pellentesque in. Imperdiet urna mi fermentum, ac sit aliquam, tempus purus non. Arcu nibh pellentesque suspendisse vitae sit proin. Neque, volutpat amet enim, cursus.
+        Amet gravida eget aliquam arcu, consequat ut neque non. Vel consequat arcu in aliquam. Sem ornare vitae gravida sed diam sagittis in. Senectus mus cursus cum tortor mauris turpis pretium. 
+        </p>
+        
+    </figure>
+</article>    
+
+</main>
 
 <!--FOTER-->
-<!--lista footer izquierda Roboto-->
-    <ul>
-        <li>Legal</li>
-        <li>Cokies</li>
-        <li>Terminos y Condiciones</li>
-    </ul>
-<!--h6 Copyright Roboto derecha-->
-<h6>Copyright 2021 - Práctica que va a puntuar en el próximo examen</h6>
+<!--lista 1 footer izquierda Roboto-->
+<footer>
 
-</div>
+    <!--Redes sociales en negrita-->
+    <ul class="social">
+   <li class="social__titulo"><h5>Redes Sociales</h5></li>
+    <!--Separación-->
+      <li class="social__instagram"><a href="https://www.instagram.com">Instagram</a></li> 
+
+       <li class="social__twitter"><a href="https://www.Twitter.com">Twitter</a></li>
+       
+       <li class="social__pinterest"><a href="https://www.Pinterest.com">Pinterest</a></li>
+    </ul>
+
+<!--lista 2 footer derecha Roboto-->
+    <ul class="legal">
+        <li class="legal__titulo"><h5>Legal</h5></li>
+        <li class="legal__cokies">Cokies</li>
+        <li class="legal__terminos">Terminos y Condiciones</li>
+    </ul>
+
+<!--h6 Copyright Roboto derecha-->
+<h6 class="copyright">Copyright 2021 - Práctica que va a puntuar en el próximo examen</h6>
+
+</footer>
+
+</section>
 
 </body>
+
 </html>

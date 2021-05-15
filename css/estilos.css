@@ -1,4 +1,156 @@
-ul{
-    list-style-type: none; 0;
-    padding: 0;
+
+body{
+
+    display: flex;
+   justify-content: center;
+background-color: #deeff5; 
+}
+
+.contenido{
+    padding: 20px; 
+    width: 1366px;
+    
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+
+    padding: 20px;
+
+}
+.menuprincipal{
+    
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menuprincipal__contactar{
+
+}
+.menuprincipal__galeria{
+
+}
+.menuprincipal__serivcios{
+
+}
+
+.banner{
+
+
+}
+.contenido{
+
+}
+.copyright{
+
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+.legal{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    background-color: #647378;
+    
+    
+   
+
+}
+.legal__cokies{
+
+}
+.legal__terminos{
+
+}
+.legal__titulo{
+
+
+
+}
+.social{
+    display: flex;
+    flex-direction: column; 
+    list-style-type: none;
+    background-color: #647378;
+    
+
+}
+.social__instagram{
+
+}
+.social__pinterest{
+
+}
+.social__titulo{
+
+}
+.social__twitter{
+
+}
+.titulo{
+
+    display: flex;
+    justify-content: center;
+
+   
+}
+.zonainferior{
+    
+
+}
+.zonainferior__casas{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+
+}.zonainferior__casas_imagen{
+
+}
+.zonainferior__casas_texto{
+
+    padding: 20px; 20px
+    justify-content:space-between
+
+}
+.zonasuperior{
+
+}
+.zonasuperior__flores{
+
+
+display: flex;
+
+  
+
+}
+.zonasuperior__flores__imagen{
+
+
+
+}
+.zonasuperior__flores__texto{
+
+    
+
+}
+.zonasuperior__flores__texto_parrafo{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.zonasuperior__flores__texto_titulo{
+
+    display: flex;
+    padding: 20px;
 }
